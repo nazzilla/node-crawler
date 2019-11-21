@@ -25,13 +25,13 @@ Open and Edit crawler.options.json
 
     "sitemap" : "https://your-website.com/sitemap.xml",
     "selectors" : {
-        "title": HtmlElement,
-        "summary": HtmlElement,
-        "content": HtmlElement,
-        "thumb": HtmlElement,
-        "date_publish": Y-m-d h:m,
-        "authors": HtmlCollection,
-        "categories" : HtmlCollection
+        "title": "HtmlElement",
+        "summary": "HtmlElement",
+        "content": "HtmlElement",
+        "thumb": "HtmlElement",
+        "date_publish": "Y-m-d h:m",
+        "authors": "HtmlCollection",
+        "categories": "HtmlCollection"
     }
 
 }
