@@ -1,13 +1,14 @@
 {
 
-    "sitemap" : "https://www.movie.tv/sitemap.xml",
+    "sitemap" : "https://www.open.online/post-sitemap124.xml",
     "selectors" : {
-        "title":        "title",
-        "summary":      ".single .post__summary",
-        "content":      ".single .post__content",
-        "thumb":        "figure.post__image img",
-        "date_publish": ".post__datetime",
-        "authors":      ".post__authors a",
-        "categories" : ".post__categoriess a"
+        "title": "title",
+        "summary": ".news__summary",
+        "content": ".news__content.article-body",
+        "thumb": ".single-news .news__thumbnail .news-image",
+        "date_publish": ".news__date",
+        "authors": ".news__author a",
+        "categories" : ".news__categories a"
     }
+
 }

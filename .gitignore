@@ -2,4 +2,5 @@
 cache
 Vagrantfile
 .vagrant
+yarn.lock
 node_modules/
