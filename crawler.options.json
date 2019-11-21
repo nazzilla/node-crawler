@@ -1,0 +1,13 @@
+{
+
+    "sitemap" : "https://www.movie.tv/sitemap.xml",
+    "selectors" : {
+        "title":        "title",
+        "summary":      ".single .post__summary",
+        "content":      ".single .post__content",
+        "thumb":        "figure.post__image img",
+        "date_publish": ".post__datetime",
+        "authors":      ".post__authors a",
+        "categories" : ".post__categoriess a"
+    }
+}

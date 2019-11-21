@@ -1,0 +1,16 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "A webcrawler written in JavaScript",
+  "main": "node-crawler.js",
+  "author": "Nazzilla",
+  "license": "ISC",
+  "scripts": {
+    "start": "node node-crawler.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^0.19.0",
+    "js-sha256": "^0.9.0"
+  }
+}
